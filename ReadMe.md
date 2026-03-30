@@ -10,4 +10,5 @@ Sr. No. | Link to Demo  | Description
 6 | [Docker-Example-06](./docker-example-06.md) | Docker Run demo with NGINX Container and Copy Files to Container
 7 | [Docker-Example-07](./docker-example-07.md) | Docker Run demo with NGINX Container and Volume Mount
 8 | [Docker-Example-08](./docker-example-08.md) | Docker Run demo with NGINX Container and Custom Bridge Network
-9 | [Docker-Example-09](./docker-example-09) | Docker Run demo with NGINX Container and Custom Bridge Network
+9 | [Docker-Example-09](./docker-example-09/ReadMe.md) | Docker Run demo with Node.js Application
+10 | [Docker-Example-10](./docker-example-10/ReadMe.md) | Docker Run demo with Java Application

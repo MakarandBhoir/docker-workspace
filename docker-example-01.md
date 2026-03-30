@@ -40,7 +40,7 @@ docker stop container-example-01
 ```
 
 ## Additional details  
-- Container name: `w1`  
+- Container name: `container-example-01`  
 - Port mapping: `8080 (host) → 80 (container)`  
 - Container is automatically deleted after stop because of `--rm`  
 - Detached mode allows terminal to remain free

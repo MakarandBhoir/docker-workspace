@@ -26,24 +26,24 @@ docker inspect net-n
 
 ## Run containers in custom network
 ```bash
-docker run -d --name t1 --net net-n nginx:alpine
-docker run -d --name t2 --net net-n nginx:alpine
-docker run -d --name t3 --net net-n nginx:alpine
-docker run -d --name t4 nginx
+docker run -d --name c1 --net net-n nginx:alpine
+docker run -d --name c2 --net net-n nginx:alpine
+docker run -d --name c3 --net net-n nginx:alpine
+docker run -d --name c4 nginx
 ```
 
 ## Test communication inside network
 ```bash
-docker exec -it t1 sh
-ping t2
-ping t3
+docker exec -it c1 sh
+ping c2
+ping c3
 exit
 ```
 
 ## Test isolation (container outside network)
 ```bash
-docker exec -it t4 sh
-ping t1
+docker exec -it c4 sh
+ping c1
 # This will fail
 exit
 ```
@@ -51,8 +51,8 @@ exit
 ## Clean up
 ```bash
 docker network inspect net-n
-docker stop t1 t2 t3 t4
-docker rm t1 t2 t3 t4
+docker stop c1 c2 c3 c4
+docker rm c1 c2 c3 c4
 docker network rm net-n
 ```
 

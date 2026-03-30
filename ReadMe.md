@@ -8,3 +8,4 @@ Sr. No. | Link to Demo  | Description
 4 | [Docker-Example-04](./docker-example-04.md) | Docker Run demo with NGINX Container and Ephemeral Changes
 5 | [Docker-Example-05](./docker-example-05.md) | Docker Run demo with NGINX Container and Custom Image Creation
 6 | [Docker-Example-06](./docker-example-06.md) | Docker Run demo with NGINX Container and Copy Files to Container
+7 | [Docker-Example-07](./docker-example-07.md) | Docker Run demo with NGINX Container and Volume Mount
